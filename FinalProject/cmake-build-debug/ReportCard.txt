@@ -1,0 +1,11 @@
+ ********************
+| 100                |
+|                    |
+| Class #1           |
+| Grade: 100         |
+| Credit Hours: 4    |
+|                    |
+| Total Hours: 4     |
+| Qual Points: 16    |
+| GPA: 4             |
+ ********************

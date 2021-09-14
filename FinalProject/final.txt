@@ -1,0 +1,37 @@
+TITLE:
+Chase Corlett GPA Calculator
+
+PROBLEM DESCRIPTION:
+GPA Calculator that takes in an arbitrary number of classes and grades
+and creates a transcript/report card for the user including their gpa, quality points
+and total credit hours taken.
+
+PROGRAM DESCRIPTION:
+The program takes in the user's name first, then it takes grade percentages
+and credit hours of the user's classes. All you need to do is enter a positive value for both the
+grade and credit hours and then when you've entered the credit hours for the last class you want
+included in the calculations, enter -1 for the next grade, and the program will take it from there.
+If adding onto the program, every valuable number is stored in a variable in the class GPACalc,
+so that must be called properly. Also, when using the data about the users grades and classes,
+keep in mind that they will need to be called as items of a vector.
+
+TESTS:
+      1: The program can run to calculate a GPA using as many classes as the user wants. It will
+         run until the user inputs the exit code "-1."
+      2: The program can take in grades with extra credit. Even if a grade is above 100, the points
+         earned will only be 4.
+      3: It can take in any length name the user might enter, using the getline() function.
+      4: Using the vectors to convert grades to points, the grade percentages are always stored,
+         so any additions to the program can always use those percentages.
+      5: Using the iomanip header, it will create a report card formatted properly as long as the
+         sizes of the numbers used are logical.
+
+REFLECTIONS:
+I learned a lot about combining functions and using a class to build functions off of each other.
+Classes and structs make using vectors and functions to do things much easier. I really enjoyed the
+simplicity of using class functions with each other to build my report card. As far as speed bumps
+along the way, the only issues I had with my program was using the correct items in the vectors to
+complete the calculation. The only thing I would do differently would be to take in a file with grades
+and weights to read those values in, but I felt the best way to do it with my knowledge of file I/O
+would be to just output to a file to ensure my program ran smoothly no matter what. Overall, this
+project was quite a fun experience and got my creative programming juices flowing.
