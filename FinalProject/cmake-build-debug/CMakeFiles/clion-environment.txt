@@ -1,4 +1,0 @@
-ToolSet: w64 6.0 (local)@C:\Users\Chase\Downloads\mingw64.7.3.0\mingw64
-Options: 
-
-Options:
